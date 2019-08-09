@@ -1,0 +1,2 @@
+.responsive-container{display:grid;grid-gap:0 10px;gap:0 10px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));grid-template-rows:repeat(auto-fit,minmax(250px,1fr))}.responsive-container img{width:100%;height:100%;object-fit:cover}.image-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));grid-gap:0 5px;gap:0 5px;grid-auto-rows:10px;justify-items:center;margin-top:10px;margin-bottom:20px}.image-list img{width:250px;grid-row-end:span 2}
+/*# sourceMappingURL=main.3fb0fc49.chunk.css.map */

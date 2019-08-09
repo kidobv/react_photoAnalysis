@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_photoAnalysis/static/css/main.3fb0fc49.chunk.css",
+    "main.js": "/react_photoAnalysis/static/js/main.01ca3e2d.chunk.js",
+    "main.js.map": "/react_photoAnalysis/static/js/main.01ca3e2d.chunk.js.map",
+    "runtime~main.js": "/react_photoAnalysis/static/js/runtime~main.48bf1095.js",
+    "runtime~main.js.map": "/react_photoAnalysis/static/js/runtime~main.48bf1095.js.map",
+    "static/js/2.b2c8fd87.chunk.js": "/react_photoAnalysis/static/js/2.b2c8fd87.chunk.js",
+    "static/js/2.b2c8fd87.chunk.js.map": "/react_photoAnalysis/static/js/2.b2c8fd87.chunk.js.map",
+    "index.html": "/react_photoAnalysis/index.html",
+    "precache-manifest.3dc845aae65a03e468c7f82a1e46d30b.js": "/react_photoAnalysis/precache-manifest.3dc845aae65a03e468c7f82a1e46d30b.js",
+    "service-worker.js": "/react_photoAnalysis/service-worker.js",
+    "static/css/main.3fb0fc49.chunk.css.map": "/react_photoAnalysis/static/css/main.3fb0fc49.chunk.css.map"
+  }
+}
