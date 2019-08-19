@@ -70,7 +70,7 @@ class ImageCard extends React.Component {
         this.setState({ loading: true });   
         const MS_LOGO = "https://azurecomcdn.azureedge.net/cvt-43585516c91952e44ccd39cf22cd31714613c4ccdea4ad5d9c5c6b1696e0a606/images/icon/favicon.ico"
         const { urls } = this.props.image;        
-        const response = await azure.post('/v2.0/analyze?visualFeatures=Categories,Description,Color&language=en', {url: urls.regular
+        const response = await azure.post('?visualFeatures=Categories,Description,Color&language=en', {url: urls.regular
             // params: { 
             //     visualFeatures: 'Categories, Description, Color',
             //     language: 'en'
