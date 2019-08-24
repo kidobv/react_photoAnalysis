@@ -1,6 +1,8 @@
 import './css/ImageList.css';
-import React from 'react';
-import ImageCard from './ImageCard'
+import React, {Suspense, lazy} from 'react';
+
+//lazy loading
+const ImageCard = lazy(()=> import ('./ImageCard'));
 
 const ImageList = (props) => {
 
@@ -13,7 +15,11 @@ const ImageList = (props) => {
     return (        
         // <div className="responsive-container">
         <div className="image-list">
-            {images}
+            <Suspense fallback={<div className="ui active inverted dimmer" style={{ position: 'fixed' }}>
+                <div className="ui text loader">Loading</div>
+            </div> } >
+                {images}
+            </Suspense>            
         </div>
     );
 }

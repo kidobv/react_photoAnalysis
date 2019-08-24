@@ -1,9 +1,11 @@
-import React from "react";
+import React, {Suspense, lazy} from "react";
 import swal from "sweetalert";
 import unsplash from "../api/unsplash";
-import ImageList from "./ImageList";
+// import ImageList from "./ImageList";
 import PhotoPlaceholder from "./PhotoPlaceholder";
 import IntroBanner from "./IntroBanner";
+
+const ImageList = lazy(() => import("./ImageList"));
 
 class TopicsSearch extends React.Component {
 
@@ -83,7 +85,11 @@ class TopicsSearch extends React.Component {
                 </div>
                 {this.loadingGif()}
                 {this.renderPlaceholder()}
-                <ImageList images={this.state.images} />
+                <Suspense fallback={<div className="ui active inverted dimmer" style={{ position: 'fixed' }}>
+                    <div className="ui text loader">Loading</div>
+                </div>} >
+                    <ImageList images={this.state.images} />
+                </Suspense>                
             </div>
         );
     }

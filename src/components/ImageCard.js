@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import azure from '../api/azure'
 import Swal from 'sweetalert2';
 
