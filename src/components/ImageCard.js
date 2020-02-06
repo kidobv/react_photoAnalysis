@@ -2,9 +2,10 @@ import React  from 'react';
 import azure from '../api/azure'
 import Swal from 'sweetalert2';
 
-//The purpose of this whole component logic is to try and make the image list layout pretty by calculating how many spans each individual image needs
-//Instead of this component we can also just use the responsive-container css class in ImageList css which will make the layout dimensions even and responsive for each cell
 class ImageCard extends React.Component {
+    
+    //The purpose of the spans logic is to try and make the image list layout pretty by calculating how many spans each individual image needs
+    //Instead of this component we can also just use the responsive-container css class in ImageList css which will make the layout dimensions even and responsive for each cell
     constructor(props) {
         super(props);
         this.imageRef = React.createRef();
