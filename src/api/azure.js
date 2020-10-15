@@ -6,6 +6,6 @@ export default axios.create({
     headers: {
         //remeber to remove the api key when uploading to github
         'Content-Type': 'application/json',
-        'Ocp-Apim-Subscription-Key': '6eda8989b29e4683a14d1f548e3505b0'
+        'Ocp-Apim-Subscription-Key': 'MY_API_KEY'
     }
 });
